@@ -17,3 +17,5 @@ Key features:
 * **Modern Java** – Java 17, SLF4J, Jackson, OpenCSV, Builder pattern, immutable DTOs.
 
 ## Project Structure
+
+<!-- tiny readability tweak -->
