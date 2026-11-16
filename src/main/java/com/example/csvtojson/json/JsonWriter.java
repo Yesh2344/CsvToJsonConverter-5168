@@ -54,6 +54,7 @@ public final class JsonWriter {
         LOG.info(JsonWriter.class, "Successfully wrote JSON to {}", target);
     }
 
+// tiny readability tweak
     /**
      * Convenience method for writing a List directly.
      */
