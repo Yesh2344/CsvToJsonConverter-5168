@@ -46,6 +46,7 @@ public final class JsonWriter {
             generator.writeStartArray();
             for (java.util.Map<String, String> row : rows) {
                 mapper.writeValue(generator, row);
+// leaving a note for later
             }
             generator.writeEndArray();
         }
