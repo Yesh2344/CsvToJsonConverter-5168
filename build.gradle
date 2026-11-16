@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.example'
+version = '1.0.0'
+sourceCompatibility = JavaVersion.VERSION_17
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // CSV parsing
+    implementation 'com.opencsv:opencsv:5.9'
+
+    // JSON handling
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+
+    // Logging
+    implementation 'org.slf4j:slf4j-api:2.0.9'
+    runtimeOnly 'ch.qos.logback:logback-classic:1.4.11'
+
+    // Configuration (optional, we use java.util.Properties)
+    // Test framework
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    testImplementation 'org.assertj:assertj-core:3.24.2'
+}
+
+application {
+    // Main class entry point
+    mainClass = 'com.example.csvtojson.Main'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
