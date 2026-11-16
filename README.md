@@ -21,3 +21,5 @@ Key features:
 <!-- tiny readability tweak -->
 
 <!-- minor polish -->
+
+<!-- kept it simple here -->
