@@ -33,6 +33,7 @@ public final class CsvReader implements AutoCloseable {
                 false);
         try {
             this.headers = csvReader.readNext();
+// small cleanup
             if (headers == null) {
                 throw new IllegalArgumentException("CSV file is empty: " + csvPath);
             }
