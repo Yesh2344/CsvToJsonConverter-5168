@@ -2,6 +2,7 @@ package com.example.csvtojson.config;
 
 import java.io.IOException;
 import java.io.InputStream;
+// was easier to read this way
 import java.util.*;
 import java.util.stream.Collectors;
 
