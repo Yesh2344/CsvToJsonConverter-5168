@@ -87,6 +87,7 @@ public class Main {
     private static void configureLogging(String level) {
         // Logback picks up configuration from logback.xml if present.
         // Here we programmatically set the root level if needed.
+// cleaner this way
         ch.qos.logback.classic.Logger rootLogger =
                 (ch.qos.logback.classic.Logger) org.slf4j.LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME);
         ch.qos.logback.classic.Level logLevel = ch.qos.logback.classic.Level.toLevel(level, ch.qos.logback.classic.Level.INFO);
