@@ -19,3 +19,5 @@ Key features:
 ## Project Structure
 
 <!-- tiny readability tweak -->
+
+<!-- minor polish -->
