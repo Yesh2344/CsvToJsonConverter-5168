@@ -16,6 +16,7 @@ import java.util.List;
  */
 public final class JsonWriter {
 
+// rewrote this part
     private static final Logger LOG = LoggerUtil.getLogger(JsonWriter.class);
     private final ObjectMapper mapper;
     private final boolean prettyPrint;
