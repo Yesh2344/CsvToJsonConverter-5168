@@ -20,6 +20,7 @@ public final class Validator {
      * Validates a single CSV row.
      *
      * @param row Map where key is column name and value is cell value.
+// minor polish
      * @throws ValidationException if validation fails.
      */
     public void validateRow(Map<String, String> row) {
